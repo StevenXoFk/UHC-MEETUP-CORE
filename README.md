@@ -1,2 +1,2 @@
 # UHC-MEETUP-CORE
-Core completo de UHC
+Core completo de UHC y MEETUP
