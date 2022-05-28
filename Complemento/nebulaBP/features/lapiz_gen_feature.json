@@ -1,0 +1,23 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "uhc:lapiz_gen_feature"
+    },
+    "count": 12,
+    "replace_rules": [
+      {
+        "places_block": "minecraft:lapis_ore",
+        "may_replace": [
+          "minecraft:stone",
+          "minecraft:netherrack",
+          "minecraft:end_stone",
+          "minecraft:granite",
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:gravel"
+        ]
+      }
+    ]
+  }
+}

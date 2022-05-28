@@ -1,0 +1,12 @@
+import "./ban.js";
+import "./unban.js";
+import "./respawn.js";
+import "./mute.js";
+import "./unmute.js";
+import "./staffchat.js";
+import "./teamchat.js";
+import "./win.js";
+import "./freeze.js";
+import "./addsc.js";
+import "./scenarios.js";
+import "./helpop.js";

@@ -1,0 +1,78 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"StevenXofk"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.9"
+			],
+			"dash": [
+				"0.8.11"
+			]
+		}
+	},
+	"header": {
+		"name": "NEBULA MEETUP BP",
+		"description": "Meetup Core",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "8d2faa09-1f21-418f-bd25-9f2b3b352172",
+		"version": [
+			1,
+			0,
+			1
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "365b629d-b582-4d1f-b45f-7a502c35b6a0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "javascript",
+			"uuid": "2a9d43a5-76da-4abf-9236-68bc57038a8d",
+			"entry": "scripts/index.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": [
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+			"version": [
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"uuid": "2bd50a27-ab5f-4f40-a596-3641627c635e",
+			"version": [
+				0,
+				1,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+# Lobby
+execute @e[type=sfx:execute,scores={sb=1}] ~~~ titleraw @a title {"rawtext":[{"text":"     §l§dNebula UHC§r\n\n §rType:§d Meetup\n §rMode: §d"},{"selector":"@e[tag=mode]"},{"text":"\n §rHost: §d"},{"selector":"@a[tag=host]"},{"text":"§7\n\n --Waiting Players--\n§8§o dsc.gg/nebulauhc\n"}]}
+
+# Ingame
+execute @e[type=sfx:execute,scores={sb=2}] ~~~ execute @a ~~~ titleraw @s title {"rawtext":[{"text":"     §l§dNebula UHC§r\n\n Time: §d"},{"score":{"name":"@e[type=sfx:execute]","objective":"h"}},{"text":":"},{"score":{"name":"@e[type=sfx:execute]","objective":"m"}},{"text":":"},{"score":{"name":"@e[type=sfx:execute]","objective":"s"}},{"text":"\n§r\n Your Kills: §d"},{"score":{"name":"@s","objective":"kill"}},{"text":"§r\n\n Players Left: §d"},{"score":{"name":"live","objective":"live"}},{"text":"§r\n Border: §d"},{"score":{"name":"borde","objective":"border"}},{"text":"§r\n\n§8§o dsc.gg/nebulauhc\n"}]}
+
+# Winner
+execute @e[type=sfx:execute,scores={sb=3}] ~~~ execute @a ~~~ titleraw @s title {"rawtext":[{"text":"     §l§dNebula UHC§r\n\n Time: §d"},{"score":{"name":"@e[type=sfx:execute]","objective":"h"}},{"text":":"},{"score":{"name":"@e[type=sfx:execute]","objective":"m"}},{"text":":"},{"score":{"name":"@e[type=sfx:execute]","objective":"s"}},{"text":"\n§r\n Your Kills: §d"},{"score":{"name":"@s","objective":"kill"}},{"text":"§r\n\n Winner: §d"},{"selector":"@a[tag=win]"},{"text":"§r\n Winner Kills: §d"},{"score":{"name":"@a[tag=win]","objective":"kill"}},{"text":"§r\n\n§8§o dsc.gg/nebulauhc\n"}]}

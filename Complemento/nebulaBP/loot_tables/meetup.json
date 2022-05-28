@@ -1,0 +1,765 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 2
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 3
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 1
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 2
+               }
+              ]
+           }
+        ]
+       }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_chestplate", 
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 2
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 3
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 1
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 2
+               }
+              ]
+           }
+        ]
+       }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_leggings",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 2
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:iron_leggings",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 3
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 1
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 2
+               }
+              ]
+           }
+        ]
+       }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_boots",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 2
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:iron_boots",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 3
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 1
+               }
+              ]
+           }
+        ]
+       },
+       {
+          "type": "item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+           },
+           {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "protection",
+                 "level": 2
+               }
+              ]
+           }
+        ]
+       }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+             "count": {
+               "min": 0,
+               "max": 0
+             }
+            },
+            {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "sharpness",
+                 "level": 2
+               }
+              ]
+           }
+         ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+             "count": {
+               "min": 0,
+               "max": 0
+             }
+            },
+            {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "sharpness",
+                 "level": 3
+               }
+              ]
+           }
+         ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+             "count": {
+               "min": 0,
+               "max": 0
+             }
+            },
+            {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "sharpness",
+                 "level": 1
+               }
+              ]
+           }
+         ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+             "count": {
+               "min": 0,
+               "max": 0
+             }
+            },
+            {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "sharpness",
+                 "level": 2
+               }
+              ]
+           }
+         ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 10,
+                "max": 16
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:appleEnchanted",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 9
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:fishing_rod",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 32
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:cobblestone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 192,
+                "max": 192
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:planks",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 192,
+                "max": 192
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:lava_bucket",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 2
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:water_bucket",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 2
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:snowball",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 32
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:web",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 7,
+                "max": 12
+              }
+            }
+           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+             "count": {
+               "min": 0,
+               "max": 0
+             }
+            },
+            {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "power",
+                 "level": 2
+               }
+              ]
+           }
+         ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+             "count": {
+               "min": 0,
+               "max": 0
+             }
+            },
+            {
+             "function": "specific_enchants",
+             "enchants": [
+               {
+                 "id": "power",
+                 "level": 1
+               }
+              ]
+           }
+         ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 32
+              }
+            }
+           ]
+        }
+      ]
+    }
+  ]
+}

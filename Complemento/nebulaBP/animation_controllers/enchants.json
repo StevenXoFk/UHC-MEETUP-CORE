@@ -1,0 +1,43 @@
+{
+  "format_version":"1.10.0",
+    "animation_controllers": {
+    "controller.animation.enchants": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "si": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shovel', 'minecraft:is_pickaxe', 'minecraft:is_axe', 'minecraft:is_hoe')"
+            },
+            {
+              "no": "query.is_using_item"	            
+	    }
+          ]
+        },
+        "si": {
+          "transitions": [
+            {
+              "default": "(1.0)"
+            }
+          ],
+          "on_entry": [
+	
+						
+					      	"/enchant @s efficiency 2",
+					      	"/enchant @s unbreaking 3"
+          ]
+        },
+        "no": {
+          "transitions": [
+            {
+              "default": "(1.0)"
+            }
+          ],
+          "on_entry": [
+			"/scoreboard players set @s escudo 0"
+	
+					]
+				}
+			}
+		}
+	}
+}
