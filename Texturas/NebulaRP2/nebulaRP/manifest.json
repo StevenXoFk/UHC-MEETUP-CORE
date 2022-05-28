@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"StevenXoFk"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.9"
+			],
+			"dash": [
+				"0.8.11"
+			]
+		}
+	},
+	"header": {
+		"name": "Nebula RP",
+		"description": "UHC/MEETUP RP",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "079c3a8a-d48f-4838-b514-33b6071b2b9c",
+		"version": [
+			1,
+			0,
+			1
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "f9ace75a-46be-474e-b47f-868bea370d75",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

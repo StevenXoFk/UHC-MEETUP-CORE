@@ -1,0 +1,32 @@
+{
+  "namespace": "stonecutter",
+
+  "arrow_icon": {
+    "controls":[
+      { 
+        "stonecutter_quick_craft_button@stonecutter.stonecutter_quick_craft_button": {
+          "size": [ 24, 24 ],
+          "offset": [ 4, 6 ]
+        }  
+      }
+    ]
+  },
+
+  "stonecutter_quick_craft_button@crafting.quick_craft_button":{
+    "property_bag": {
+      "#collection_name": "stonecutter_result_items"
+    },
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.container_auto_place",
+        "mapping_type": "pressed"
+      }
+    ]
+  }
+}

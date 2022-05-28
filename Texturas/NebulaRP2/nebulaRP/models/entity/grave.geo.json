@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.grave",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "cuerpocompleto",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "cofre",
+					"parent": "cuerpocompleto",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{
+							"origin": [-14, 0, -7],
+							"size": [28, 10, 14],
+							"uv": {
+								"north": {"uv": [28, 14], "uv_size": [28, 10]},
+								"east": {"uv": [28, 34], "uv_size": [14, 10]},
+								"south": {"uv": [28, 24], "uv_size": [28, 10]},
+								"west": {"uv": [0, 42], "uv_size": [14, 10]},
+								"up": {"uv": [0, 0], "uv_size": [28, 14]},
+								"down": {"uv": [0, 28], "uv_size": [28, -14]}
+							}
+						}
+					]
+				},
+				{
+					"name": "cofrecuerpoarriba",
+					"parent": "cuerpocompleto",
+					"pivot": [0, 11, -3.5],
+					"cubes": [
+						{
+							"origin": [-14, 10, -7],
+							"size": [28, 4, 14],
+							"uv": {
+								"north": {"uv": [42, 34], "uv_size": [28, 4]},
+								"east": {"uv": [14, 42], "uv_size": [14, 4]},
+								"south": {"uv": [42, 38], "uv_size": [28, 4]},
+								"west": {"uv": [42, 42], "uv_size": [14, 4]},
+								"up": {"uv": [0, 28], "uv_size": [28, 14]},
+								"down": {"uv": [28, 14], "uv_size": [28, -14]}
+							}
+						},
+						{
+							"origin": [-0.7, 7, -7.5],
+							"size": [1.4, 4, 1],
+							"uv": {
+								"north": {"uv": [28, 44], "uv_size": [1, 4]},
+								"east": {"uv": [29, 44], "uv_size": [1, 4]},
+								"south": {"uv": [30, 44], "uv_size": [1, 4]},
+								"west": {"uv": [31, 44], "uv_size": [1, 4]},
+								"up": {"uv": [32, 44], "uv_size": [1, 1]},
+								"down": {"uv": [33, 45], "uv_size": [1, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
