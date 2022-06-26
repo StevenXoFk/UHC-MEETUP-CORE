@@ -1,0 +1,146 @@
+{
+  "uhc.boom": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/vineboom"
+          ]
+  },
+  "uhc.taco": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/taco"
+          ]
+  },
+  "uhc.sp": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/sp"
+          ]
+  },
+  "uhc.peo": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/peo"
+          ]
+  },
+  "uhc.critico": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/critico"
+          ]
+  },
+  "uhc.sus": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/sus"
+          ]
+  },
+  "uhc.oof": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/oof"
+          ]
+  },
+  "uhc.o": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/o"
+          ]
+  },
+  "uhc.bruh": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/bruh"
+          ]
+  },
+  "uhc.win": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/win"
+          ]
+  },
+  "uhc.yo": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/yo"
+          ]
+  },
+  "uhc.l": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/l"
+          ]
+  },
+  "uhc.dross": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/dross"
+          ]
+  },
+  "uhc.sw": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/sw"
+          ]
+  },
+  "uhc.w": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/w"
+          ]
+  },
+  "uhc.omg": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/omg"
+          ]
+  },
+  "uhc.white": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/white"
+          ]
+  },
+  "uhc.hola": {
+      "category": "music",
+      "stream": true,
+      "volume": 0.5,
+      "sounds": [
+          "sounds/hola"
+          ]
+  }
+}

@@ -1,0 +1,18 @@
+item.appleEnchanted.name=Golden Head
+multiplayer.player.joined=§7[§a+§7]§a %s 
+multiplayer.player.joined.renamed=§7[§a+§7]§a %s (antes conocido como %s) 
+multiplayer.player.left=§7[§c-§7]§c %s 
+
+disconnect.kicked=§7
+disconnect.kicked.reason=§7
+
+item.uhc:tp.name=§aTp Random
+item.uhc:vacio.name=vacio
+item.spawn_egg.entity.uhc:cofre.name=Spawn cofre
+entity.uhc:cofre.name=cofre
+
+entity.graves:grave.name=Cofre
+entity.inventory.unknown.name=Cofre
+
+death.attack.player=§7
+death.attack.player.item==§7

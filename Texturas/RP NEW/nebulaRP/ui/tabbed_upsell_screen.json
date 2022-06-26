@@ -1,0 +1,93 @@
+{
+  "namespace": "tabbed_upsell",
+  "info_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100% - 8px", "100%c" ],
+    "offset": [ 4, 4 ],
+    "controls": [
+      {
+        "1": {
+          "type": "stack_panel",
+          "size": [ "fill", "100%c" ],
+          "controls": [
+            {
+              "title_text@settings_common.selector_group_label": {
+                "text": "§l§cInformación IMPORTANTE",
+                "shadow": true,
+                "font_size": "large"
+              }
+            },
+          
+          // Overflow
+          {"oh1@how_to_play_common.header":{"$text":"packinfo.overflow"}},
+          {"op1_@how_to_play_common.paragraph":{"$text":"packinfo.o1"}},
+          {"op2_@how_to_play_common.paragraph":{"$text":"packinfo.o2"}},
+          
+          // Features
+          {"fh2@how_to_play_common.header":{"$text":"packinfo.features"}},
+          {"fp1_@how_to_play_common.paragraph":{"$text":"packinfo.f1"}},
+          {"fp2_@how_to_play_common.paragraph":{"$text":"packinfo.f2"}},
+          {"fp3_@how_to_play_common.paragraph":{"$text":"packinfo.f3"}},
+          {"fp4_@how_to_play_common.paragraph":{"$text":"packinfo.f4"}},
+          {"fp5_@how_to_play_common.paragraph":{"$text":"packinfo.f5"}},
+          {"fp6_@how_to_play_common.paragraph":{"$text":"packinfo.f6"}},
+          {"fp7_@how_to_play_common.paragraph":{"$text":"packinfo.f7"}},
+          {"fp8_@how_to_play_common.paragraph":{"$text":"packinfo.f8"}},
+          {"fp9_@how_to_play_common.paragraph":{"$text":"packinfo.f9"}},
+          {"fp10_@how_to_play_common.paragraph":{"$text":"packinfo.f10"}},
+          {"fp11_@how_to_play_common.paragraph":{"$text":"packinfo.f11"}},
+          {"fp12_@how_to_play_common.paragraph":{"$text":"packinfo.f12"}},
+          {"fp13_@how_to_play_common.paragraph":{"$text":"packinfo.f13"}},
+          {"fp14_@how_to_play_common.paragraph":{"$text":"packinfo.f14"}},
+          {"fp15_@how_to_play_common.paragraph":{"$text":"packinfo.f15"}},
+          {"fp16_@how_to_play_common.paragraph":{"$text":"packinfo.f16"}},
+          {"fp17_@how_to_play_common.paragraph":{"$text":"packinfo.f17"}},
+          {"fp18_@how_to_play_common.paragraph":{"$text":"packinfo.f18"}},
+          {"fp19_@how_to_play_common.paragraph":{"$text":"packinfo.f19"}},
+          
+          // Cautions
+          {"ch1@how_to_play_common.header":{"$text":"packinfo.cautions"}},
+          {"cp1_@how_to_play_common.paragraph":{"$text":"packinfo.c1"}},
+          {"cp2_@how_to_play_common.paragraph":{"$text":"packinfo.c2"}},
+          {"cp3_@how_to_play_common.paragraph":{"$text":""}},
+          {"cp4_@how_to_play_common.paragraph":{"$text":""}},
+          {"cp5_@how_to_play_common.paragraph":{"$text":"packinfo.creater"}},
+          {"cp6_@how_to_play_common.paragraph":{"$text":""}}
+          ]
+        }
+      }
+    ]
+  },
+  "scroll@common.scrolling_panel": {
+    "$show_background": false,
+    "$scrolling_content": "tabbed_upsell.info_panel",
+    "$scrolling_panel_size": [ "100% - 2px", "100%" ],
+    "$scroll_size": [ "4px", "100% - 2px" ],
+    "$always_handle_scrolling": true
+  },
+  "title@common.fullscreen_header": {
+    "$back_button_has_title": true,
+    "$button_text": "Informacion",
+    "$child_control": "tabbed_upsell.scroll",
+	  "layer": 10
+  },
+  "tabbed_upseel_screen_panel@common.base_screen": {
+    "$screen_bg_content": "tabbed_upsell.black",
+    "$screen_content": "tabbed_upsell.title",
+	  "button_mappings": [
+        {
+          "from_button_id": "button.menu_cancel",
+          "to_button_id": "button.menu_exit",
+          "mapping_type": "global"
+        }
+    ]
+  },
+  "black": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui/White",
+    "color": [ 0.0, 0.0, 0.0 ],
+    "alpha": 0.7
+  }
+}
