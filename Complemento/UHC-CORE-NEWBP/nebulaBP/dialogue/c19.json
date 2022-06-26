@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [{
+            "scene_tag": "c19",
+            "npc_name": "§cChest will explode in: §f19",
+            "text": "",
+            "on_open_commands": [""],
+            "on_close_commands": [""],
+            "buttons": [{
+                "name": "",
+                "commands": [""]
+            }]
+        }]
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "uhc:gold_gen_feature"
+    },
+    "count": 5,
+    "replace_rules": [
+      {
+        "places_block": "minecraft:gold_ore",
+        "may_replace": [
+          "minecraft:stone",
+          "minecraft:netherrack",
+          "minecraft:end_stone",
+          "minecraft:deepslate",
+          "minecraft:tuff",
+          "minecraft:gravel"
+        ]
+      }
+    ]
+  }
+}

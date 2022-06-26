@@ -1,0 +1,1 @@
+loot give @s[tag=l] loot app
